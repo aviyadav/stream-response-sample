@@ -1,0 +1,10 @@
+[project]
+name = "stream-response-sample"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.116.1",
+    "pandas==2.3.1",
+    "uvicorn==0.35.0",
+]

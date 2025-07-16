@@ -1,0 +1,10 @@
+uv init .
+
+uv add fastapi uvicorn pandas
+
+activate venv
+
+uvicorn main:app --port 9090
+
+http://127.0.0.1:9090/
+http://127.0.0.1:9090/docs
